@@ -9,7 +9,6 @@ The main goal of this code is to analyse the "Luciferase-Pruebas" plant images. 
 ## Resources used in Architecture:
 Since the goal of this project is to establish communication between plants, AI and human beings using images, the main software packages revolve around computer vision and some code to handle the sound messages. Google’s drive and Colab were used for most of the experimentation workloads, modeling and testing. The list of software frameworks and resources used for storage, compute, data preprocessing and modeling are shown in table 1.
 
-
 ## About the Data:
 A high resolution DSLR camera was used to capture around 500 HD bioluminescent images. The camera was configured using Python’s PTP library (code not included) to automatically capture time lapse photographs and were stored in a local machine to be imported into Google Drive. The usable raw images were selected after a manual screening and cleaning procedures. The filtered images were stored in google drive and later were imported to the Cobal environment as a zip file. Since the number of images was not so big, we chose Google Drive for our operations. 
 
@@ -82,56 +81,18 @@ After mounting your google drive, you should be able to locate the path of the d
    zip_ref.close()
   ```
 
-### Running the project
- 
-### Interaction
+## Execution and Explanation of Code:
 
-For content-based model search for the following code snippet like mentioned below.
 
-    content_based_test_list = ["Jumanji (1995)", "Pinocchio (1940)", "Walking Dead, The (1995)", "Othello (1995)"]
-    
-For collaborative-filtering model search for the following code snippet like mentioned below.
 
-    user = [
-            {'title':'Breakfast Club, The (1985)', 'rating':4},
-            {'title':'Toy Story (1995)', 'rating':2.5},
-            {'title':'Jumanji (1995)', 'rating':3},
-            {'title':"Pulp Fiction (1994)", 'rating':4.5},
-            {'title':'Akira (1988)', 'rating':5}
-         ] 
 
-## Data usage license:
-Neither the University of Minnesota nor any of the researchers
-involved can guarantee the correctness of the data, its suitability
-for any particular purpose, or the validity of results based on the
-use of the data set.  The data set may be used for any research
-purposes under the following conditions:
+## Data Usage Policy:
+Data is owned by Rochester Institute of Technology. Please read the following conditions:
 
- - The user may not state or imply any endorsement from the
-   University of Minnesota or the GroupLens Research Group.
+ - The user may not use the dataset wihtout contacting the project members mentioned above.
 
- - The user must acknowledge the use of the data set in
-   publications resulting from the use of the data set
-   (see below for citation information).
+ - The user may not redistribute the data without separate permission.
 
- - The user may not redistribute the data without separate
-   permission.
-
- - The user may not use this information for any commercial or
-   revenue-bearing purposes without first obtaining permission
-   from a faculty member of the GroupLens Research Project at the
-   University of Minnesota.
-
-If you have any further questions or comments, please contact GroupLens
-<grouplens-info@cs.umn.edu>.
-
-## Citation:
-To acknowledge use of the dataset in publications, please cite the following
-paper:
-
-F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History
-and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4,
-Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872
-
+ - The user may not use this information for any commercial or revenue-bearing purposes without first obtaining permission from the faculty member (mentioned above) of Rochester Institute of Technology.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
