@@ -9,7 +9,7 @@ The main goal of this code is to analyse the "Luciferase-Pruebas" plant images. 
 ## Resources used in Architecture:
 Since the goal of this project is to establish communication between plants, AI and human beings using images, the main software packages revolve around computer vision and some code to handle the sound messages. Google’s drive and Colab were used for most of the experimentation workloads, modeling and testing. The list of software frameworks and resources used for storage, compute, data preprocessing and modeling are shown in table below.
 
-[<img src='https://github.com/Praveen2795/Plant_futures/blob/main/Resources_table.png' alt='Resources' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+[<img src='https://github.com/Praveen2795/Plant_futures/blob/main/Resources_table.png' alt='Resources' height='400'>]
 
 ## About the Data:
 A high resolution DSLR camera was used to capture around 500 HD bioluminescent images. The camera was configured using Python’s PTP library (code not included) to automatically capture time lapse photographs and were stored in a local machine to be imported into Google Drive. The usable raw images were selected after a manual screening and cleaning procedures. The filtered images were stored in google drive and later were imported to the Cobal environment as a zip file. Since the number of images was not so big, we chose Google Drive for our operations. 
