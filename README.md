@@ -46,10 +46,10 @@ If you have already installed Python 3.9 and are an advanced user, you can insta
 
 	pip3 install jupyter	
 
-### Setting up your local
+### Setting Up Local Environment
 Navigate to file on google colab and click the download button in found in the dropdown, then click download as .ipynb file to the respective directory where you want to this notebook to be saved in your machine. <br/>
 
-### Running the environment
+### Running Environments
 
 #### Jypter notebook
 
