@@ -92,12 +92,14 @@ After mounting your google drive, you should be able to locate the path of the d
   ```
 
 ## Execution and Explanation of Code:
-
+- NA
+- NA
+- NA
 
 
 
 ## Data Usage Policy:
-Data is owned by Rochester Institute of Technology. Please read the following conditions:
+Data is owned by Rochester Institute of Technology and by professor Carlos Castellanos (carlos.castellanos@rit.edu). Please read the following conditions:
 
  - The user may not use the dataset wihtout contacting the project members mentioned above.
 
