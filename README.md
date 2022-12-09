@@ -92,9 +92,15 @@ After mounting your google drive, you should be able to locate the path of the d
   ```
 
 ## Execution and Explanation of Code:
-- NA
-- NA
-- NA
+- The recommended way is to access the shared google colab notebook with the above mentioned link and then run the code one by one. 
+- Please not note the google colab notebook is documented, nevertheless, exteded explanations are given in this readme file. The code starts with importing essential libraries and APIs that includes but not limited to os, numpy, zipfile, pickle, pandas, matplotlib and tensorflow.
+- The next step downloads the zipped folder of dataset into the google colab from the drive. Later unzipping the folder to access the folders inside the main directory.
+- The following step is important to understand and check if all the images are accessible, we find 9 folders and some images stored in all of them. We count the number of images present in each of the folders so that we have a total number of files to work with.
+- The next cell displayes two images from each folder to see if there are any patterns in brightness of the plants (bioluminescence). We can observe thatthe brightness increases till a point and then starts to fall when the images are displayed in the captured order.
+- Next step in the process is to understand our dataset better. We have to preprocess all the images into a size that is acceptable by the model that we will be using for feature extraction.
+- Follwoing cell helps in preprocssing the images which are in raw form (size: 2832X4240). These images are not accepted by the VGG16 model. Therefore we resize the input images into 224X224 NumPy arrays. VGG16 mode takes in batches of images rather than a single one. Therefore we reshape the image as (1, 224, 224, 3). Below function takes one of our image and object of our instantiated model to preprocess the image and to return the features. The output layer of the VGG model is removed so that the new final layer is a fully-connected layer with 4,096 output nodes. This vector of 4,096 numbers is the feature vector that we will use to cluster the images.
+- After the sanoty checks and preprocessign of data, the next cell helps in addressing the "Curse of Dimensionality" with the help of PCA. This method is used to reduce the number of features from 4096 to a smaller number. We statistically analyse the features to pick a small number for the dimensionality reduction. Typically, we want the explained variance to be between 95–99% from the below graph we statistically find out that 50 or 25 components will be the best for reduction. The chosen number of reduced feature is 50.
+- 
 
 
 
