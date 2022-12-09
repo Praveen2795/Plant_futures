@@ -1,6 +1,6 @@
 <h1 align="center">Post-Natural Prototype - "Plant Futures" 🌱 </h1>
 
-## Author of this code and this readme file: 
+## Author of this code and respective readme file: 
 Praveen Chandrasekaran (pc2846@g.rit.edu) 
 
 ## Objective:
