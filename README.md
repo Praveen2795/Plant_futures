@@ -3,6 +3,10 @@
 ## Author of this code and respective readme file: 
 Praveen Chandrasekaran (pc2846@g.rit.edu) 
 
+## Important Links:
+- Luciferase Dataset Link: <a href="https://drive.google.com/file/d/1AaWdXBl30SXSVFS93YPT0BUPvs7eXwwn/view?usp=sharing">Google drive link</a>
+- Luciferase Code: <a href="https://colab.research.google.com/drive/1qIdsA2dlP0R0bp2cDoQY-CYo0-5tA3kN?authuser=1#scrollTo=4nFxXjsb0jk4">Google Colab Code link</a>
+
 ## Objective:
 The main goal of this code is to analyse the "Luciferase-Pruebas" plant images. This code crunches a dataset containing 378 usable images to cluster them into different groups. The raw images are of size 2832X 4240 and are colored. 
 
@@ -21,9 +25,6 @@ A high resolution DSLR camera is used to capture around 500 HD images for biolum
 
 ## About the Data:
 A high resolution DSLR camera was used to capture around 500 HD bioluminescent images. The camera was configured using Python’s PTP library (code not included) to automatically capture time lapse photographs and were stored in a local machine to be imported into Google Drive. The usable raw images were selected after a manual screening and cleaning procedures. The filtered images were stored in google drive and later were imported to the Cobal environment as a zip file. Since the number of images was not so big, we chose Google Drive for our operations. 
-
-## Luciferase Dataset Link:
-<a href="https://drive.google.com/file/d/1AaWdXBl30SXSVFS93YPT0BUPvs7eXwwn/view?usp=sharing">Google drive link</a>
 
 ## Prerequisites
 To start using this project, you’ll need to either use the [Colb Link]([https://git-scm.com/download/](https://colab.research.google.com/drive/1qIdsA2dlP0R0bp2cDoQY-CYo0-5tA3kN?usp=sharing)) to access the google colab notebook to run the code or have access to the following program. <br/>
